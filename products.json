@@ -1,0 +1,26 @@
+[
+  { 
+    "id": 1,
+    "name": "Black Mountain Bike",
+    "img": "./assets/bike-black.png",
+    "price": "$399"
+  },
+  {
+     "id": 2,
+    "name": "Blue Mountain Bike",
+    "img": "./assets/bike-blue.png",
+    "price": "$499"
+  },
+  {
+     "id": 3,
+    "name": "Gold Mountain Bike",
+    "img": "./assets/bike-gold.png",
+    "price": "$389"
+  },
+  {
+     "id": 4,
+    "name": "Red Mountain Bike",
+    "img": "./assets/bike-red.png",
+    "price": "$429"
+  }
+]
