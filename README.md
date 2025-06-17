@@ -6,6 +6,8 @@ A simple, responsive shopping cart built with **vanilla JavaScript** — no fram
 
 Data is persisted in `localStorage`, and reactivity is handled using native browser APIs and HTML templates.
 
+The use of HTML templates provides a great alternative to innerHTML, as it is less susceptible to xss attacks!
+
 [🚀 Live Demo](https://mini-cart-project-nj3x.vercel.app/)
 
 ---

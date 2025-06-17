@@ -1,26 +1,30 @@
 [
-  { 
+  {
     "id": 1,
     "name": "Black Mountain Bike",
     "img": "./assets/bike-black.png",
-    "price": "399"
+    "price": "399",
+    "alt": "A black mountain bike"
   },
   {
-     "id": 2,
+    "id": 2,
     "name": "Blue Mountain Bike",
     "img": "./assets/bike-blue.png",
-    "price": "499"
+    "price": "499",
+    "alt": "A blue mountain bike"
   },
   {
-     "id": 3,
+    "id": 3,
     "name": "Gold Mountain Bike",
     "img": "./assets/bike-gold.png",
-    "price": "389"
+    "price": "389",
+    "alt": "A gold mountain bike"
   },
   {
-     "id": 4,
+    "id": 4,
     "name": "Red Mountain Bike",
     "img": "./assets/bike-red.png",
-    "price": "429"
+    "price": "429",
+    "alt": "A red mountain bike"
   }
 ]
