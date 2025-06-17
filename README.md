@@ -1,4 +1,4 @@
-[Cart project image](./assets/cart-img.png)
+![Cart project image](./assets/cart-img.png)
 
 # mini-cart-project
 
