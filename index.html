@@ -6,12 +6,45 @@
     <title>Mini Project - Cart</title>
     <link rel="stylesheet" href="./index.css" />
     <script defer src="./index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="productsContainer"></div>
     <div class="productCart">
       <h2>Cart</h2>
       <ul class="cartList"></ul>
+      <h3>Total Price: $<span class="priceTotal"></span></h3>
     </div>
+
+    <!--Templates provide a safer way to inject fragements into the document compared to using innerHTML-->
+    <!-- In this project it is not really necessary because there is limited opportunities for xss, but still a good practice to follow-->
+    <!--product card template-->
+    <template id="productCardTemplate">
+      <div class="productCard">
+        <img />
+        <h2 class="productTitle"></h2>
+        <p>$<span class="productPrice"></span></p>
+        <button class="addToCartButton" type="button" data-product-id="">
+          Add to cart
+        </button>
+      </div>
+    </template>
+
+    <!-- cart item template-->
+    <template id="cartItemTemplate">
+      <li class="cartItem" data-product-id="">
+        <span class="itemName"></span>
+        <span class="itemQuantity"></span>
+        <span class="priceAndButtons">
+          <span>$<span class="itemPrice"></span></span>
+          <span class="plusMinusButtons">
+            <button class="quantity plus">+</button>
+            <button class="quantity minus">-</button>
+          </span>
+        </span>
+      </li>
+    </template>
   </body>
 </html>

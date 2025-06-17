@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Products container styling*/
@@ -16,14 +17,13 @@
   margin-top: 10rem;
   margin-bottom: 5rem;
   margin-inline: auto;
-  width: 50%;
+  width: 60%;
 }
-
 
 /*Product card styling*/
 
 .productCard {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
@@ -35,7 +35,8 @@
 }
 
 .productCard h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .productCard button {
@@ -44,13 +45,49 @@
 
 /*Product cart styling*/
 
-.productCart {
+.productCart ul {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  list-style: none;
+  gap: 1rem;
   justify-content: center;
-   margin-inline: auto;
-   width: 50%;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.productCart {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+  justify-content: center;
+  margin-inline: auto;
+  width: 50%;
+}
+
+.productCart h3 {
+  margin-top: 2rem;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cartItem button {
+  padding-inline: 0.25rem;
+}
+
+.priceAndButtons {
+  display: flex;
+  gap: 1rem;
+}
+
+.plusMinusButtons {
+  display: flex;
+  gap: 0.5rem;
 }
 
 /*Media queries*/
@@ -62,9 +99,4 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
-  .productCart {
-    flex-direction: row;
-    justify-content: center;
-}
 }
